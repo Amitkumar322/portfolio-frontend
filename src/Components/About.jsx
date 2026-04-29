@@ -90,8 +90,18 @@ export const About = () => {
         <h1 ref={headingRef}>ABOUT ME</h1>
 
         <p ref={paraRef}>
-          Hi, I'm a passionate Front-End Developer who loves building modern,
-          responsive and user-friendly websites using React, JavaScript and clean UI design.
+           Hi, I'm a passionate Front-End Developer who loves turning ideas
+                into beautiful, responsive web experiences. With a strong
+                command of HTML, CSS, JavaScript, and React, I build clean and
+                interactive interfaces that users actually enjoy. I also work
+                with WordPress to create dynamic websites and use Bootstrap to
+                craft pixel-perfect, mobile-friendly layouts — fast and
+                efficiently. I believe great design and solid code go hand in
+                hand. Whether it's a sleek landing page, a custom WordPress
+                theme, or a full React application, I bring both creativity and
+                precision to every project. I'm always learning, always
+                building, and always pushing to make the web a little better —
+                one line of code at a time.
         </p>
 
         <button
