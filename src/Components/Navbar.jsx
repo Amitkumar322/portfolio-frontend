@@ -2,7 +2,7 @@ import "./Navbar.css";
 import { Link, useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
-  const navigate = useNavigate(); // ✅ Fix 1: () lagaya
+  const navigate = useNavigate(); 
 
   const handleNavClick = (id) => {
     const offcanvasEl = document.getElementById("mobileMenu");
@@ -26,7 +26,6 @@ export const Navbar = () => {
     }, 300);
   };
 
-  // ✅ Go Back to Home handler
   const handleGoHome = () => {
     const offcanvasEl = document.getElementById("mobileMenu");
     
@@ -39,7 +38,7 @@ export const Navbar = () => {
     }
 
     setTimeout(() => {
-      navigate('/'); // ✅ Fix 2: lowercase navigate
+      navigate('/'); 
     }, 300);
   };
 
