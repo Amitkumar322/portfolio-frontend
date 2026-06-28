@@ -1,5 +1,5 @@
 import './Hero.css'
-import face from "../assets/images/face.png"
+import face from "../assets/images/face.webp"
 export const Hero = () =>{
     return(
         <>

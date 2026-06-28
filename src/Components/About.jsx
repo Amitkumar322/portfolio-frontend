@@ -5,10 +5,10 @@ import { useNavigate } from "react-router-dom";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import illustration3 from "../assets/images/illustration3.png";
-import illustration4 from "../assets/images/illustration4.png";
-import illustration1 from "../assets/images/illustration1.png";
-import illustration2 from "../assets/images/illustration2.png";
+import illustration3 from "../assets/images/illustration3.webp";
+import illustration4 from "../assets/images/illustration4.webp";
+import illustration1 from "../assets/images/illustration1.webp";
+import illustration2 from "../assets/images/illustration2.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 

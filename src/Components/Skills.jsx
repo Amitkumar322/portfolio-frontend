@@ -1,10 +1,10 @@
-import html from "../assets/images/html.png";
-import css from "../assets/images/css.png";
-import js from "../assets/images/js.png";
-import bootstrap from "../assets/images/bootstrap.png";
-import react from "../assets/images/react.png";
-import wordpres from "../assets/images/wordpres.png";
-import illustration10 from "../assets/images/illustration10.png";
+import html from "../assets/images/html.webp";
+import css from "../assets/images/css.webp";
+import js from "../assets/images/js.webp";
+import bootstrap from "../assets/images/bootstrap.webp";
+import react from "../assets/images/react.webp";
+import wordpres from "../assets/images/wordpres.webp";
+import illustration10 from "../assets/images/illustration10.webp";
 import { useEffect, useRef } from "react";
 import './Skills.css'
 

@@ -1,9 +1,7 @@
 import { useState } from "react";
 import "./Testimonial.css";
-import arrowLeft from "../assets/images/leftarrow.png";
-import arrowRight from "../assets/images/rightarrow.png";
-import deg from "../assets/images/79deg.png";
-import cm from "../assets/images/cmlogo.png";
+import deg from "../assets/images/79deg.webp";
+import cm from "../assets/images/cmlogo.webp";
 
 const testimonials = [
 
@@ -58,8 +56,8 @@ export const Testimonial = () => {
 
         <div className="d-flex justify-content-between align-items-center pt-3 border-top border-secondary border-opacity-25">
 
-          <button className="arrow-btn" onClick={() => change(-1)}>
-            <img src={arrowLeft} alt="prev" width={44} height={44} />
+          <button className="arrow-btn" onClick={() => change(-1)} aria-label="Previous Testimonial">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
           </button>
 
           <div className="d-flex gap-2">
@@ -72,8 +70,8 @@ export const Testimonial = () => {
             ))}
           </div>
 
-          <button className="arrow-btn" onClick={() => change(1)}>
-            <img src={arrowRight} alt="next" width={44} height={44} />
+          <button className="arrow-btn" onClick={() => change(1)} aria-label="Next Testimonial">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </button>
 
         </div>
